@@ -1,0 +1,149 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    padding: 5px;
+    grid-gap: 5px;
+    background-color: #ff0000;
+    margin: auto;
+    width: 50%;
+}
+.grid-container > div
+{
+    background-color: #ffffff;
+}
+.grid-container .row
+{
+    padding: 5px;
+}
+.grid-container .row .part-1
+{
+    padding: 5px;
+}
+.grid-container .row .part-2
+{
+    padding: 5px;
+}
+.grid-container .row .part-3
+{
+    padding: 5px;
+}
+.grid-container .row-search
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.grid-container .row .part-1 img
+{
+    width: 8%;
+    border-radius: 50%;
+}
+.grid-container .row .part-1 .name
+{
+    font-size: 20px;
+    color: skyblue;
+}
+.grid-container .row .part-1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.grid-container .row .part-1 .identity
+{
+    display: flex;
+}
+.grid-container .row .part-1 .designation
+{
+    font-size: 12px;
+}
+.grid-container .row .part-1 .time
+{
+    font-size: 10px;
+}
+.grid-container .row .part-2
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.grid-container .row .part-2 .fa-bookmark
+{
+    color: red;
+    cursor: pointer;
+}
+.grid-container .row .part-3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.grid-container .row .part-3 button
+{
+    cursor: pointer;
+    background-color: skyblue;
+    border: none;
+    border-radius: 2px;
+}
+.grid-container .row .part-3 .fa-arrow-up
+{
+    color: red;
+}
+.grid-container .row .part-3 .fa-arrow-down
+{
+    color: white;
+}
+.grid-container .row .part-3 .fa-comment
+{
+    cursor: pointer;
+    color: skyblue;
+}
+.grid-container .row .part-3 .share
+{
+    color: white;
+}
+.grid-container .row .part-3 .report
+{
+    color: white;
+    background-color: red;
+}
+.grid-container .row .part-3 .fa-reply
+{
+    cursor: pointer;
+    color: skyblue;
+}
+.grid-container .row-search
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.grid-container .row-search img
+{
+    width: 4%;
+    border-radius: 50%;
+}
+.grid-container .row-search input
+{
+    width: 50%;
+}
+.grid-container .row-search button
+{
+    cursor: pointer;
+    border: none;
+    background-color: skyblue;
+    border-radius: 2px;
+}
+.grid-container .row .ans
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
